@@ -26,4 +26,16 @@ func GetRandomTextLine() -> String{
     }
     return "ERROR Did not find messages.txt"
 }
+func downloadLatestMessageList(){
+    //todo check if there is an updated list and download it
+}
+func checkForDupe(){
+    //todo check to see if the yesterdays message happens to be todays too
+}
+
+
+
+
+
+
 
