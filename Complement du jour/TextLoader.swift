@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+let linkyface = URL(string: "https://1amnick.net/messages/version.txt")
+let linkybutt = URL(string: "https://1amnick.net/messages/messages.txt")
 func GetRandomTextLine() -> String{
 
     if let file = Bundle.main.path(forResource: "messages", ofType: "txt"){
@@ -27,12 +28,30 @@ func GetRandomTextLine() -> String{
     return "ERROR Did not find messages.txt"
 }
 func downloadLatestMessageList(){
-    //todo check if there is an updated list and download it
+    print("Downloading latest...")
+    
+    
 }
 func checkForDupe(){
     //todo check to see if the yesterdays message happens to be todays too
 }
-
+func checkUpdate() {
+    do{
+        var currentVersionText = try String(contentsOf: linkyface!)
+        sleep(1)
+        currentVersionText.removeLast(1)
+        let currentVersion = Double(currentVersionText)!
+        let myversion = 0.00
+        if myversion < currentVersion{
+            print(myversion , "is <" , currentVersion , "need to update.")
+            downloadLatestMessageList()
+        }else{
+        print(myversion , " is the latest.")
+        }
+    }catch{
+        //do nothing
+    }
+}
 
 
 

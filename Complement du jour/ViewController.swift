@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         Background.image =  UIImage(named: "Rose.png")
-        Background.contentMode = UIViewContentMode.scaleAspectFill
-        
+        //Background.contentMode = UIViewContentMode.scaleAspectFill
+        checkUpdate()
         
     
         
