@@ -19,15 +19,15 @@ class ViewController: UIViewController {
         Background.image =  UIImage(named: "Rose.png")
         //Background.contentMode = UIViewContentMode.scaleAspectFill
         checkUpdate()
-        
-    
-        
         Textbox.text = GetRandomTextLine()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func WEWANTMOARCOMPLEMENTS(_ sender: Any) {
+        Textbox.text = GetRandomTextLine()
     }
     
 }

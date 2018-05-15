@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63A9CF02209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
+		63A9CF03209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
+		63A9CF04209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
 		63C6ACAF208A858400DA8152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6ACAE208A858400DA8152 /* AppDelegate.swift */; };
 		63C6ACB1208A858400DA8152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6ACB0208A858400DA8152 /* ViewController.swift */; };
 		63C6ACB4208A858400DA8152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C6ACB2208A858400DA8152 /* Main.storyboard */; };
@@ -69,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		63A9CF01209D1A9300CDC9AC /* messagescopy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = messagescopy.txt; sourceTree = "<group>"; };
 		63C6ACAB208A858400DA8152 /* Complement du jour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Complement du jour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C6ACAE208A858400DA8152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C6ACB0208A858400DA8152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 				63C6ACC1208A858500DA8152 /* Complement du jour WatchKit App */,
 				63C6ACD0208A858600DA8152 /* Complement du jour WatchKit Extension */,
 				63C6ACAC208A858400DA8152 /* Products */,
+				63A9CF01209D1A9300CDC9AC /* messagescopy.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -280,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A9CF02209D1A9300CDC9AC /* messagescopy.txt in Resources */,
 				63C6ACB9208A858500DA8152 /* LaunchScreen.storyboard in Resources */,
 				63C6ACB6208A858500DA8152 /* Assets.xcassets in Resources */,
 				63C6ACB4208A858400DA8152 /* Main.storyboard in Resources */,
@@ -291,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A9CF03209D1A9300CDC9AC /* messagescopy.txt in Resources */,
 				63C6ACC6208A858600DA8152 /* Assets.xcassets in Resources */,
 				63C6ACC4208A858500DA8152 /* Interface.storyboard in Resources */,
 			);
@@ -300,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A9CF04209D1A9300CDC9AC /* messagescopy.txt in Resources */,
 				63C6ACDA208A858700DA8152 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
