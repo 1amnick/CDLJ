@@ -45,7 +45,7 @@ func checkUpdate() {
         //sleep(1) do i need to sleep?
         currentVersionText.removeLast(1)
         let currentVersion = Double(currentVersionText)!
-        let myversion = 
+        let myversion = 0.00//placeholder
         if myversion < currentVersion{
             print(myversion , "is <" , currentVersion , "need to update.")
             downloadLatestMessageList()
