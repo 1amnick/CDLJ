@@ -18,8 +18,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         Background.image =  UIImage(named: "Rose.png")
         //Background.contentMode = UIViewContentMode.scaleAspectFill
-        checkUpdate()
+        checkUpdateAndDownload()
         Textbox.text = GetRandomTextLine()
+    }
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 
     override func didReceiveMemoryWarning() {
