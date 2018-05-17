@@ -10,6 +10,7 @@
 		63A9CF02209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
 		63A9CF03209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
 		63A9CF04209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
+		63B1EB4520AE36D1008210C8 /* SettingsPulloverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B1EB4420AE36D1008210C8 /* SettingsPulloverController.swift */; };
 		63C6ACAF208A858400DA8152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6ACAE208A858400DA8152 /* AppDelegate.swift */; };
 		63C6ACB1208A858400DA8152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6ACB0208A858400DA8152 /* ViewController.swift */; };
 		63C6ACB4208A858400DA8152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C6ACB2208A858400DA8152 /* Main.storyboard */; };
@@ -73,6 +74,7 @@
 
 /* Begin PBXFileReference section */
 		63A9CF01209D1A9300CDC9AC /* messagescopy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = messagescopy.txt; sourceTree = "<group>"; };
+		63B1EB4420AE36D1008210C8 /* SettingsPulloverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPulloverController.swift; sourceTree = "<group>"; };
 		63C6ACAB208A858400DA8152 /* Complement du jour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Complement du jour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C6ACAE208A858400DA8152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C6ACB0208A858400DA8152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				63C6ACAE208A858400DA8152 /* AppDelegate.swift */,
 				63C6ACEB208A867100DA8152 /* TextLoader.swift */,
 				63C6ACB0208A858400DA8152 /* ViewController.swift */,
+				63B1EB4420AE36D1008210C8 /* SettingsPulloverController.swift */,
 				63C6ACB2208A858400DA8152 /* Main.storyboard */,
 				63C6ACB5208A858500DA8152 /* Assets.xcassets */,
 				63C6ACB7208A858500DA8152 /* LaunchScreen.storyboard */,
@@ -321,6 +324,7 @@
 			files = (
 				63C6ACEC208A867100DA8152 /* TextLoader.swift in Sources */,
 				63C6ACB1208A858400DA8152 /* ViewController.swift in Sources */,
+				63B1EB4520AE36D1008210C8 /* SettingsPulloverController.swift in Sources */,
 				63C6ACAF208A858400DA8152 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
+				ASSETCATALOG_WARNINGS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47DT58XZ47;
 				INFOPLIST_FILE = "Complement du jour/Info.plist";
@@ -613,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
+				ASSETCATALOG_WARNINGS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47DT58XZ47;
 				INFOPLIST_FILE = "Complement du jour/Info.plist";
