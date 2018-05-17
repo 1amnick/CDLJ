@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		638BA34B20AE2860007AB574 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BA34A20AE2860007AB574 /* SettingsViewController.swift */; };
 		63A9CF02209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
 		63A9CF03209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
 		63A9CF04209D1A9300CDC9AC /* messagescopy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A9CF01209D1A9300CDC9AC /* messagescopy.txt */; };
@@ -73,7 +72,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		638BA34A20AE2860007AB574 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		63A9CF01209D1A9300CDC9AC /* messagescopy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = messagescopy.txt; sourceTree = "<group>"; };
 		63C6ACAB208A858400DA8152 /* Complement du jour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Complement du jour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C6ACAE208A858400DA8152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				63C6ACEB208A867100DA8152 /* TextLoader.swift */,
 				63C6ACB0208A858400DA8152 /* ViewController.swift */,
 				63C6ACB2208A858400DA8152 /* Main.storyboard */,
-				638BA34A20AE2860007AB574 /* SettingsViewController.swift */,
 				63C6ACB5208A858500DA8152 /* Assets.xcassets */,
 				63C6ACB7208A858500DA8152 /* LaunchScreen.storyboard */,
 				632911E4208A902D00BE63B7 /* fonts */,
@@ -325,7 +322,6 @@
 				63C6ACEC208A867100DA8152 /* TextLoader.swift in Sources */,
 				63C6ACB1208A858400DA8152 /* ViewController.swift in Sources */,
 				63C6ACAF208A858400DA8152 /* AppDelegate.swift in Sources */,
-				638BA34B20AE2860007AB574 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
