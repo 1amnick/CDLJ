@@ -23,7 +23,28 @@ class SettingsPulloverController: UIViewController {
     @IBAction func backButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-
+    @IBAction func DatePicker(_ sender: Any) {
+        
+    }
+    @IBAction func SwitchAction(_ sender: Any) {
+        if SwitchOutlet.isOn {
+            ToggleLabelOutlet.text = "Reminders are on!"
+        }else{
+            ToggleLabelOutlet.text = "Reminders are off."
+        }
+       
+    }
+    @IBOutlet weak var SwitchOutlet: UISwitch!
+    
+    @IBOutlet weak var ToggleLabelOutlet: UILabel!
+    
+    @IBAction func TimePicked(_ sender: UIDatePicker) {
+        print(TimePicker.date)
+    }
+    
+    @IBOutlet weak var TimePicker: UIDatePicker!
+    
+    
     /*
     // MARK: - Navigation
 

@@ -83,7 +83,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxq-Eg-yzL">
-                                <rect key="frame" x="16" y="44" width="72" height="42"/>
+                                <rect key="frame" x="16" y="44" width="69" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -97,6 +97,10 @@
                                 <date key="date" timeIntervalSinceReferenceDate="548289496.863482">
                                     <!--2018-05-17 22:38:16 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="DatePicker:" destination="Z5K-zU-cUk" eventType="valueChanged" id="efC-Ht-Qyu"/>
+                                    <action selector="TimePicked:" destination="Z5K-zU-cUk" eventType="valueChanged" id="vrd-Zc-5kB"/>
+                                </connections>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set a daily reminder for how awesome you are!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cK-Eh-2ho">
                                 <rect key="frame" x="94" y="175" width="186" height="62"/>
@@ -105,21 +109,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Z3-ZF-OLo">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Z3-ZF-OLo">
                                 <rect key="frame" x="273" y="490" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="SwitchAction:" destination="Z5K-zU-cUk" eventType="valueChanged" id="mfd-8N-FWP"/>
+                                </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reminders are on" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8z-19-EFd">
-                                <rect key="frame" x="94" y="495" width="134" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reminders are off." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8z-19-EFd">
+                                <rect key="frame" x="64" y="495" width="164" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRy-DO-fZY">
+                                <rect key="frame" x="299" y="50" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XJk-rL-W2w"/>
                     </view>
+                    <connections>
+                        <outlet property="SwitchOutlet" destination="1Z3-ZF-OLo" id="Uso-t4-KBJ"/>
+                        <outlet property="TimePicker" destination="JIF-Ui-PUQ" id="jad-qe-Ue3"/>
+                        <outlet property="ToggleLabelOutlet" destination="c8z-19-EFd" id="FcB-PP-Ni2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xvU-nY-TDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="KYF-pT-uX9" userLabel="Exit" sceneMemberID="exit"/>
