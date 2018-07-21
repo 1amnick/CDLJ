@@ -9,7 +9,7 @@
 import Foundation
 let defaults = UserDefaults.standard
 let linkyface = URL(string: "https://1amnick.net/messages/version.txt")
-let linkybutt = URL(string: "https://1amnick.net/messages/messages.txt")
+let linkywinkey = URL(string: "https://1amnick.net/messages/messages.txt")
 let fileName = "messages.txt"
 let fileURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent(fileName)
 func GetRandomTextLine() -> String{
@@ -43,7 +43,7 @@ func checkUpdateAndDownload() {
             //Download latest now
             print("DownLOADing LATEST...")
             do{
-                let 🐮 = try String(contentsOf: linkybutt!)
+                let 🐮 = try String(contentsOf: linkywinkey!)
                 try 🐮.write(to: fileURL!, atomically: false, encoding: String.Encoding.utf8)
                 print("📲 ✅")
                 defaults.set(currentVersion, forKey: "version")
